@@ -23,10 +23,10 @@ docker-compose up -d
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' elasticsearch
 ``
 # setup 
-``
+```
 docker pull docker.elastic.co/beats/filebeat:7.16.3
 docker run --network=elastic docker.elastic.co/beats/filebeat:7.16.2 setup -E setup.kibana.host=172.19.0.3:5601 -E output.elasticsearch.hosts=["172.19.0.2:9200"]
-``
+```
 
 # run
 ```
