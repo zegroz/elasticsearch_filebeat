@@ -7,11 +7,13 @@ sysctl -w vm.max_map_count=262144
 ``
 
 # or permanent
-`` 
+```
 sudo nano /etc/sysctl.conf
+
 vm.max_map_count=262144
+
 sudo sysctl -p
-``
+```
 
 # docker-compose.yml
 ``
