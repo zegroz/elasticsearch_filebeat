@@ -39,7 +39,7 @@ docker run -d \
   --volume="/var/lib/docker/containers:/var/lib/docker/containers:ro" \
   --volume="/var/run/docker.sock:/var/run/docker.sock:ro" \
   docker.elastic.co/beats/filebeat:7.16.2 filebeat -e -strict.perms=false \
-  -E output.elasticsearch.hosts=["172.19.0.2:9200"]![grafik](https://user-images.githubusercontent.com/5676113/150174103-7ae78c60-0cd6-4cfa-99a3-078f253aca52.png)
+  -E output.elasticsearch.hosts=["172.19.0.2:9200"]
 
 ``
 
