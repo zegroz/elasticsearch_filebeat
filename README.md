@@ -31,7 +31,6 @@ docker run --network=elastic docker.elastic.co/beats/filebeat:7.16.2 setup -E se
 
 # run
 ``
-
 docker run -d \
   --name=filebeat \
   --user=root \
@@ -41,7 +40,6 @@ docker run -d \
   --volume="/var/run/docker.sock:/var/run/docker.sock:ro" \
   docker.elastic.co/beats/filebeat:7.16.2 filebeat -e -strict.perms=false \
   -E output.elasticsearch.hosts=["172.19.0.2:9200"]
-  
 ``
 
 source: https://www.elastic.co/guide/en/beats/filebeat/current/running-on-docker.html
