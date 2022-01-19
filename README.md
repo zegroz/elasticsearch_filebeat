@@ -15,7 +15,6 @@ sudo sysctl -p
 
 # docker-compose.yml
 ``
-sudo nano docker-compose.yml
 docker-compose up -d
 ``
 
