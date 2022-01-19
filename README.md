@@ -1,5 +1,5 @@
 # elasticsearch_filebeat
-Elasticsearch and filebeat, kibana docker stack
+Elasticsearch, filebeat and kibana docker stack
 
 # set virtual memory for a virtual machine (temporary)
 ``
