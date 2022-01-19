@@ -6,7 +6,7 @@ Elasticsearch and filebeat, kibana docker stack
 sysctl -w vm.max_map_count=262144
 ``
 
-# 
+# or permanent
 `` 
 sudo nano /etc/sysctl.conf
 vm.max_map_count=262144
